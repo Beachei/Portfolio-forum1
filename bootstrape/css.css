@@ -1,0 +1,53 @@
+.dn{
+    display: none;
+}
+.db{
+    display: block;
+}
+.bg1{
+    background: url(/img/lock.jpg) no-repeat;
+    background-size: cover;
+}
+.bg2{
+    background: url(/img/galactic.jpg) no-repeat;
+    background-size: cover;
+}
+.bg3{
+    background: url(/img/planete11.png) no-repeat;
+    background-size: cover;
+}
+
+.bgc{
+    background-color: rgba(245, 245, 245, 0.541);
+}
+.bgg1{
+    background: linear-gradient( to right bottom, #ea106f, #316bcf);
+}
+.bgg2{
+    background-color: #08104e;
+}
+.rd{
+    border-radius: 10px;
+}
+.rdd{
+    border-radius: 50%;
+}
+.rd0{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.bs{
+    animation: bw infinite 1s;
+}
+@keyframes bw{
+    25%{
+        box-shadow: 1px 1px 0px 0px rgba(245, 245, 245, 0.521);
+        
+    }
+    50%{
+        box-shadow: 1px 1px 35px 10px rgba(245, 245, 245, 0.521);
+    }
+    5%{
+        box-shadow: 1px 1px 0px 0px rgba(245, 245, 245, 0.521);
+    }
+}
